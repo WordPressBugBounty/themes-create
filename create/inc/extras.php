@@ -291,7 +291,7 @@ if ( ! function_exists( 'create_scrollup' ) ) {
 	function create_scrollup() {
 		$disable_scrollup = get_theme_mod( 'disable_scrollup', create_get_default_theme_options( 'disable_scrollup' ) );
 		if ( '1' != $disable_scrollup ) {
-			echo '<a href="#masthead" id="scrollup" class="genericon"><span class="screen-reader-text">' . __( 'Scroll Up', 'create' ) . '</span></a>' ;
+			echo '<a href="#masthead" id="scrollup" class="fa"><span class="screen-reader-text">' . __( 'Scroll Up', 'create' ) . '</span></a>' ;
 		}
 	}
 }

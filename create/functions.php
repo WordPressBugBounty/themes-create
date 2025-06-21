@@ -168,8 +168,8 @@ function create_scripts() {
 	// Google fonts
 	wp_enqueue_style( 'create-fonts', create_fonts_url(), array(), '1.0.0' );
 
-	//For genericons
-	wp_enqueue_style( 'genericons', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'css/genericons/genericons.css', false, '3.4.1' );
+	// Font Awesome
+	wp_enqueue_style('font-awesome', trailingslashit(esc_url(get_template_directory_uri())) . 'css/font-awesome/css/all.min.css', array(), '6.7.2', 'all');
 
     // JS helpers (This is also the place where we call the jQuery in array)
 	wp_enqueue_script( 'create-helpers', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'js/helpers.js', array( 'jquery' ), '1.0.0', true );

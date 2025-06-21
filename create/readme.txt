@@ -3,7 +3,7 @@ Contributors: catchthemes
 Tags: one-column, two-columns, left-sidebar, right-sidebar, grid-layout, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, blog, e-commerce, portfolio
 Requires at least: 5.9
 Requires PHP: 5.6
-Tested up to: 6.6
+Tested up to: 6.8
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -70,8 +70,10 @@ Create theme allows you display links to your social media profiles, like Twitte
 
 Available icons: (Linking to any of the following sites will automatically display its icon in your social menu).
 
+* Bluesky
 * Codepen
 * Digg
+* Discord
 * Dribbble
 * Dropbox
 * Facebook
@@ -79,6 +81,7 @@ Available icons: (Linking to any of the following sites will automatically displ
 * Foursquare
 * GitHub
 * Google+
+* Line
 * Instagram
 * LinkedIn
 * Email (mailto: links)
@@ -89,11 +92,17 @@ Available icons: (Linking to any of the following sites will automatically displ
 * RSS Feed (urls with /feed/)
 * Spotify
 * StumbleUpon
+* Telegram
+* Tiktok
+* Threads
 * Tumblr
 * Twitch
 * Twitter
+* X Twitter
 * Vimeo
+* Vk
 * WordPress
+* Xing
 * YouTube
 
 = Widgets =
@@ -109,6 +118,11 @@ Before getting started with your featured images, regenerate them first and you 
 Theme supports Jetpack logo and it can be easily uploaded from Customizer area. It also supports Responsive videos and Infinite Scroll as well. We highly recommend installing JetPack plugin.
 
 == Change log ==
+
+= 3.0 (Released: June 21, 2025) =
+* Added: Twitter X, TikTok, Bluesky, Threads, Telegram, Discord, Line, Xing and Vk icons
+* Replaced: Genericons library to Font Awesome
+* Updated: WordPress 6.8 ready
 
 = 2.9.2 (Released: August 28, 2024) =
 * Bug Fixed: Escaping author display name (Reported By Michael  https://patchstack.com)
@@ -230,14 +244,14 @@ Theme supports Jetpack logo and it can be easily uploaded from Customizer area. 
 
 == Copyright ==
 
-Create WordPress Theme, Copyright 2012-2023 Catchthemes.com
+Create WordPress Theme, Copyright 2012-2025 Catchthemes.com
 Create is distributed under the terms of the GNU General Public License v3
 
 == Resources ==
 
 * Create was based on Underscores http://underscores.me/ - (C) 2012-2014 Automattic, Inc. - [GNU General Public License v2 or later]
 * screenshot.png images: https://pxhere.com/en/photo/1096311, https://pxhere.com/en/photo/948933, https://pxhere.com/en/photo/948934 - [CC0]
-* /css/genericons/ http://genericons.com/ - (C) 2014 Automattic, Inc. - [GPL, version 2 or later]
+* /css/font-awesome/ https://fontawesome.com - Copyright (c) 2024 Fonticons - SIL OFL 1.1 License - Font Awesome Free is free, open source, and GPL friendly.
 * PHP files
 	WPTT_WebFont_Loader
 	License https://opensource.org/licenses/MIT
