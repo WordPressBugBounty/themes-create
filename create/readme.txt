@@ -3,7 +3,7 @@ Contributors: catchthemes
 Tags: one-column, two-columns, left-sidebar, right-sidebar, grid-layout, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, blog, e-commerce, portfolio
 Requires at least: 5.9
 Requires PHP: 5.6
-Tested up to: 6.9
+Tested up to: 7.0
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -118,6 +118,9 @@ Before getting started with your featured images, regenerate them first and you 
 Theme supports Jetpack logo and it can be easily uploaded from Customizer area. It also supports Responsive videos and Infinite Scroll as well. We highly recommend installing JetPack plugin.
 
 == Change log ==
+
+= 3.2 (Released: June 04, 2026) =
+* Updated: WordPress 7.0 ready
 
 = 3.1 (Released: December 15, 2025) =
 * Updated: WordPress 6.9 ready
@@ -247,7 +250,7 @@ Theme supports Jetpack logo and it can be easily uploaded from Customizer area. 
 
 == Copyright ==
 
-Create WordPress Theme, Copyright 2012-2025 Catchthemes.com
+Create WordPress Theme, Copyright 2012-2026 Catchthemes.com
 Create is distributed under the terms of the GNU General Public License v3
 
 == Resources ==
